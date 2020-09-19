@@ -1,6 +1,6 @@
 import 'dart:math';
 // finding LCM - "Least(smallest) common multiple" using Dart prog.lang
-// translated from 
+// translated from https://github.com/wr3stl3r/edabit.com/blob/master/LCM%20from%20list.py
 main() {
   print(lcm_of_list([2, 6, 10]));
   print(lcm_of_list([1, 2, 3, 4, 5, 6, 7, 8, 9, 10])); // 2520)
