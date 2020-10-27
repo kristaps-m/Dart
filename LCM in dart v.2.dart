@@ -11,6 +11,8 @@ main() {
 
 lcm_of_list(numbers) {
   List L = theEndList(numbers);
+  // WARNING!!!!!!!!--- adding additional end_multiple variabble below will cause errors
+  // remove it if u are making app!
   int end_multiple = 1; // this will be end result
   L.forEach((element) {
     end_multiple *= element;
